@@ -1,13 +1,23 @@
 Publication title: HL7 CDA® R2 Implementation Guide: Sex and Gender Representation, Edition 1 Release 1.0 (US Realm) Standard for Trial Use September 2023
+====================================
 Component of: HL7 Cross-Paradigm Implementation Guide: Sex and Gender Representation Edition 1 
+====================================
 Edition:                                         Release 1 STU 1
+
 Realm:                                           US Realm
+
 Release status:                                  Standard for Trial Use (STU)
+
 JIRA Specification key:                          gh-cda
+
 Version:                                         1.0
+
 Errata identifier:                               n/a 
+
 Publication date:                                2023-09
+
 Prepared by:                                     Structure Document Work Group
+
 
 Contents of the Publication Package
 ====================================
