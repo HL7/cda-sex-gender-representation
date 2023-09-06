@@ -1,3 +1,33 @@
+Publication title: HL7 CDA® R2 Implementation Guide: Sex and Gender Representation, Edition 1 Release 1.0 (US Realm) Standard for Trial Use September 2023
+Component of: HL7 Cross-Paradigm Implementation Guide: Sex and Gender Representation Edition 1 
+Edition:                                         Release 1 STU 1
+Realm:                                           US Realm
+Release status:                                  Standard for Trial Use (STU)
+JIRA Specification key:                          gh-cda
+Version:                                         1.0
+Errata identifier:                               n/a 
+Publication date:                                2023-09
+Prepared by:                                     Structure Document Work Group
+
+Contents of the Publication Package
+====================================
+This file:                                       _Readme.txt 
+
+-- STU -- 
+CDAR2_IG_ODH_R1_STU1.1_2021APR.pdf      	 HHL7 CDA® R2 Implementation Guide: Sex and Gender Representation, Edition 1 Release 1.0 (US Realm) Standard for Trial Use September 2023
+                                
+--- Sample files ---
+Sample file is stored at:  https://github.com/HL7/cda-sex-gender-representation/blob/main/examples/Gender_Harmony2.xml
+
+--- Transform/Stylesheet files ---
+https://hl7.org/permalink/?CDAStyleSheet
+
+---- Schema files ----
+https://hl7.org/permalink/?CDAR2.0schema
+
+---- Schematron Validation files ----
+Schematron for ODH instances validation: https://github.com/HL7/cda-sex-gender-representation/blob/main/validation/gender.sch         
+
 # cda-sex-gender-representation
 
 Outline of gender harmony artifacts in CDA
