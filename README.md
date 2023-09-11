@@ -24,7 +24,7 @@ Contents of the Publication Package
 This file:                                       _Readme.txt 
 
 -- STU -- 
-CDAR2_IG_ODH_R1_STU1.1_2021APR.pdf      	 HHL7 CDA® R2 Implementation Guide: Sex and Gender Representation, Edition 1 Release 1.0 (US Realm) Standard for Trial Use September 2023
+CDAR2_IG_GH_R1_STU1_2023SEP.pdf     	 HHL7 CDA® R2 Implementation Guide: Sex and Gender Representation, Edition 1 Release 1.0 (US Realm) Standard for Trial Use September 2023
                                 
 --- Sample files ---
 Sample file is stored at:  https://github.com/HL7/cda-sex-gender-representation/blob/main/examples/Gender_Harmony2.xml

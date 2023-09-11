@@ -477,8 +477,8 @@
 										-db -->
 									<value xsi:type="CD" code="416098002"
 										displayName="Allergy to drug (finding)"
-										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
-									</value>
+										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
+
 									<!-- In C-CDA R2 the participant is required. The SNOMED code ="105590001" 
 										displayName="Substance" could be used in the participant -->
 									<participant typeCode="CSM">
@@ -749,7 +749,8 @@
 					<!-- Alternative text: Patient has no implanted devices' -->
 					<text>
 						<paragraph ID="Proc2">Patient has no history of implantable
-							devices</paragraph>
+							devices
+						</paragraph>
 					</text>
 					<entry>
 						<procedure classCode="PROC" moodCode="EVN"
@@ -871,6 +872,39 @@
 								</tr>
 							</thead>
 							<tbody>
+
+								<tr>
+									<td>Sex Parameter for clinical use</td>
+									<td>male-typical</td>
+									<td></td>
+								</tr>
+
+
+								<tr>
+									<td>Personal pronouns</td>
+									<td>they/them/their/theirs/themselves</td>
+									<td></td>
+								</tr>
+
+								<tr>
+									<td>Gender Identity</td>
+									<td>Identifies as male gender</td>
+									<td>From 1999 To 2014</td>
+								</tr>
+
+								<tr>
+									<td>Gender Identity</td>
+									<td>Identifies as nonbinary gender</td>
+									<td>Since 2014</td>
+								</tr>
+
+
+								<tr>
+									<td>Recorded Sex or Gender : Sex assigned at birth</td>
+									<td>Male</td>
+									<td>2023, Jurisdiction AU, Source Field BIRTH SEX </td>
+								</tr>
+
 								<tr>
 									<td>Current Smoking Status</td>
 									<td>Current every day</td>
@@ -881,9 +915,85 @@
 									<td>Male</td>
 									<td>July 22, 2015</td>
 								</tr>
+
+
 							</tbody>
 						</table>
 					</text>
+
+
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.15.3"
+								extension="2022-09-01" />
+							<code code="99501-9" codeSystem="2.16.840.1.113883.6.1"
+								displayName="Sex Parameter for clinical use" />
+							<statusCode code="completed" />
+							<value xsi:type="CD" code="male-typical"
+								codeSystem="2.16.840.1.113883.4.642.1.983"
+								codeSystemName="Sex Parameter For Clinical Use"
+								displayName="Apply female-typical setting or reference range" />
+							<!-- Supporting Reference for Sex Parameter for Clinical Use -->
+							<entryRelationship typeCode="SPRT">
+								<act classCode="ACT" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.122" />
+									<id root="6C844C75-AA34-411C-B7BD-5E4A9F206E29" />
+									<code nullFlavor="OTH" />
+									<statusCode code="completed" />
+								</act>
+							</entryRelationship>
+						</observation>
+
+					</entry>
+
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.15.2"
+								extension="2022-09-01" />
+							<code code="90778-2" codeSystem="2.16.840.1.113883.6.1"
+								displayName="Personal pronouns" />
+							<statusCode code="completed" />
+							<value xsi:type="CD" codeSystem="2.16.840.1.113883.6.1"
+								codeSystemName="LOINC" code="LA29520-6"
+								displayName="they/them/their/theirs/themselves" />
+						</observation>
+
+					</entry>
+
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.15.1"
+								extension="2022-09-01" />
+							<code code="76691-5" codeSystem="2.16.840.1.113883.6.1"
+								displayName="Gender Identity" />
+							<statusCode code="completed" />
+							<effectiveTime>
+								<low value="19990103" />
+								<high value="2014" />
+							</effectiveTime>
+							<value xsi:type="CD" codeSystem="2.16.840.1.113883.6.96"
+								codeSystemName="SNOMED CT" code="446151000124109"
+								displayName="Identifies as male gender" />
+
+						</observation>
+					</entry>
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.15.1"
+								extension="2022-09-01" />
+							<code code="76691-5" codeSystem="2.16.840.1.113883.6.1"
+								displayName="Gender Identity" />
+							<statusCode code="completed" />
+							<effectiveTime>
+								<low value="2014" />
+							</effectiveTime>
+							<value xsi:type="CD" codeSystem="2.16.840.1.113883.6.96"
+								codeSystemName="SNOMED CT" code="33791000087"
+								displayName="Identifies as nonbinary gender" />
+
+						</observation>
+
+					</entry>
 
 					<entry>
 						<observation classCode="OBS" moodCode="EVN">
@@ -891,7 +1001,7 @@
 								extension="2022-09-01" />
 							<!-- http://hl7.org/fhir/StructureDefinition/individual-recordedSexOrGender/type -->
 							<code code="76689-9" codeSystem="2.16.840.1.113883.6.1"
-								displayName="Sex assigned at birthr" />
+								displayName="Sex assigned at birth" />
 							<statusCode code="completed" />
 							<!-- http://hl7.org/fhir/StructureDefinition/individual-recordedSexOrGender/effectivePeriod -->
 							<effectiveTime>
@@ -905,7 +1015,7 @@
 								<!-- http://hl7.org/fhir/StructureDefinition/individual-recordedSexOrGender/acquisitionDate -->
 								<time value="20230115" />
 
-								<time value="20150722" />
+							 
 								<assignedAuthor>
 									<id nullFlavor="UNK" />
 
@@ -922,14 +1032,15 @@
 									<code code="77969-4" codeSystem="2.16.840.1.113883.6.1"
 										displayName="Jurisdiction code" />
 									<statusCode code="completed" />
-									<value xsi:type="CD" codeSystem="1.0.3166.2" codeSystemName="LOINC" code="AU" displayName="Australia" />
+									<value xsi:type="CD" codeSystem="1.0.3166.2"
+										codeSystemName="LOINC" code="AU" displayName="Australia" />
 								</observation>
 
 							</entryRelationship>
 							<entryRelationship typeCode="REFR">
 								<!-- Source Record Field Type -->
 								<observation classCode="OBS" moodCode="EVN">
-									<templateId root="2.16.840.1.113883.10.15.4.74"
+									<templateId root="2.16.840.1.113883.10.15.4.7"
 										extension="2022-09-01" />
 									<code code="48766-0" codeSystem="2.16.840.1.113883.6.1"
 										displayName="Information Source" />
@@ -1009,7 +1120,8 @@
 						codeSystemName="LOINC" displayName="RESULTS" />
 					<title>RESULTS</title>
 					<text>Laboratory Test: None needed. Laboratory Values/Results: No
-						Lab Result data</text>
+						Lab Result data
+					</text>
 				</section>
 			</component>
 
@@ -1138,9 +1250,11 @@
 					<text>
 						<list listType="ordered">
 							<item>Appointments: Schedule an appointment with Dr Seven after 1
-								week. Follow up with Outpatient facility.</item>
+								week. Follow up with Outpatient facility.
+							</item>
 							<item>In case of fever, take Tylenol as advised in plan of
-								treatment.</item>
+								treatment.
+							</item>
 						</list>
 					</text>
 				</section>
