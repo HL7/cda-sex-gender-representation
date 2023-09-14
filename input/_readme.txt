@@ -1,13 +1,13 @@
 This readme file is included in a zip file which contains the Publication Package for:
 
-Publication title:                               HL7 CDA® R2 Implementation Guide: Personal Advance Care Plan Document
-Edition:                                         Edition 1 v1.3.1
-Realm:                                           US Realm
+Publication title:                               HL7 CDA® R2 Implementation Guide: Gender Harmony - Sex and Gender Representation
+Edition:                                         Edition 1 v1.1
+Realm:                                           UV Realm
 Ballot type:                                     Standard for Trial Use (STU)
-Code: 						 PACP					
-Version:                                         v1.3.1
+Code: 						 gh					
+Version:                                         v1.1
 Errata identifier:                               
-Publication date:                                2023-09-13
+Publication date:                                2023-09-14
 Prepared by:                                     Structured Documents Work Group 
 
 Contents of the Publication Package
@@ -19,27 +19,19 @@ This file:                                         _readme.txt
    
 
                                 -- STU -- 
-File Name 1:                              CDAR2_IG_PERSADVCAREPLAN_E1_STU3_Vol1_2023SEP.pdf
+File Name 1:                              CDAR2_IG_GH_E1_STU1_2023SEP.pdf
 
-File Name 2: 				  CDAR2_IG_PERSADVCAREPLAN_E1_STU3_Vol2_2023SEP.pdf
-
-
-                       --- Change Log --- Stored in Github
-Change Log:                                        https://github.com/HL7/CDA-pacp/tree/main/input  Changelog.xls
          
                        --- Sample files --- Stored in Github
 
-Github Repo (current versions):                    https://github.com/HL7/CDA-pacp
-Example Documents:                                 https://github.com/HL7/CDA-pacp/tree/main/examples
+Github Repo (current versions):                    https://github.com/HL7/CDA-gh
+Example Documents:                                 https://github.com/HL7/CDA-gh/tree/main/examples
 
 
 
                                 -- Support files --
 
 Support files include related files that augment the specification but are not considered part of the specification such as transform/stylesheet and validation files.
-
-                                ---Mapping Files --
-ActStatus to CompositionStatus Value Set:          https://github.com/HL7/CDA-pacp/tree/main/input  ActStatus-To-ComositionStatus.xls
 
                                 --- Transform/Stylesheet files ---
 
@@ -50,7 +42,7 @@ Package tested with:                               https://github.com/HL7/CDA-co
 Latest version:                                    https://github.com/HL7/cda-core-xsl/releases/latest
 
                                 --- Validation files ---
-Github Repo (current versions):                    https://github.com/HL7/CDA-pacp/tree/main/validation
+Github Repo (current versions):                    https://github.com/HL7/CDA-gh/tree/main/validation
 
                                 ---- Schema files ----
 
