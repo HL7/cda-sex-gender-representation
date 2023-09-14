@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<systems xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.lantanagroup.com/voc">
+  <system valueSetOid="2.16.840.1.113883.4.642.3.1" valueSetName="Administrative-Gender">
+    <code value="male" displayName="Male" codeSystemName="AdministrativeGender" codeSystem="2.16.840.1.113883.4.642.4.2" />
+    <code value="female" displayName="Female" codeSystemName="AdministrativeGender" codeSystem="2.16.840.1.113883.4.642.4.2" />
+    <code value="other" displayName="Other" codeSystemName="AdministrativeGender" codeSystem="2.16.840.1.113883.4.642.4.2" />
+    <code value="unknown" displayName="Unknown" codeSystemName="AdministrativeGender" codeSystem="2.16.840.1.113883.4.642.4.2" />
+  </system>
+  <system valueSetOid="2.16.840.1.113883.4.642.3.3291" valueSetName="Gender Identity">
+    <code value="446141000124107" displayName="Identifies as female gender (finding)" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+    <code value="446151000124109" displayName="Identifies as male gender (finding)" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+    <code value="33791000087105" displayName="Identifies as nonbinary gender (finding)" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+    <code value="UNK" displayName="Unknown" codeSystemName="HL7NullFlavor" codeSystem="2.16.840.1.113883.5.1008" />
+    <code value="asked-declined" displayName="Asked But Declined" codeSystemName="DataAbsentReason" codeSystem="2.16.840.1.113883.4.642.4.1048" />
+  </system>
+  <system valueSetOid="2.16.840.1.113883.4.642.3.48" valueSetName="JurisdictionValueSet">
+    <code value="AU" displayName="Australia" codeSystemName="ISO 3166 Part 1 Country Codes, 2nd Edition, Alpha-2" codeSystem="1.0.3166.1.2.2" />
+  </system>
+  <system valueSetOid="2.16.840.1.113883.11.19755" valueSetName="Pronouns">
+    <code value="LA29518-0" displayName="He, Him, His, Himself" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+    <code value="LA29519-8" displayName="She, Her, Hers, Herself" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+    <code value="LA29520-6" displayName="They, Them, Their, Theirs, Themself" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+  </system>
+  <system valueSetOid="2.16.840.1.113883.11.19757" valueSetName="Recorded Sex Or Gender Type">
+    <code value="46098-0" displayName="Sex" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+    <code value="76689-9" displayName="Sex assigned at birth" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+    <code value="76691-5" displayName="Gender identity" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+  </system>
+  <system valueSetOid="2.16.840.1.113883.4.642.3.3181" valueSetName="Sex Parameter for-Clinical Use">
+    <code value="female-typical" displayName="Apply female-typical setting or reference range" codeSystemName="Sex Parameter for Clinical Use" codeSystem="2.16.840.1.113883.4.642.4.2038" />
+    <code value="male-typical" displayName="Apply male-typical setting or reference range" codeSystemName="Sex Parameter for Clinical Use" codeSystem="2.16.840.1.113883.4.642.4.2038" />
+    <code value="specified" displayName="Apply specified setting or reference range" codeSystemName="Sex Parameter for Clinical Use" codeSystem="2.16.840.1.113883.4.642.4.2038" />
+    <code value="unknown" displayName="Unknown" codeSystemName="Sex Parameter for Clinical Use" codeSystem="2.16.840.1.113883.4.642.4.2038" />
+  </system>
+</systems>
