@@ -4,9 +4,9 @@ Publication title:                               HL7 CDA® R2 Implementation Gui
 Edition:                                         Edition 1 v1.1
 Realm:                                           UV Realm
 Ballot type:                                     Standard for Trial Use (STU)
-Code: 						 gh					
+Code: 						                     gh					
 Version:                                         v1.1
-Errata identifier:                               
+Errata identifier:                               n/a
 Publication date:                                2023-09-14
 Prepared by:                                     Structured Documents Work Group 
 
