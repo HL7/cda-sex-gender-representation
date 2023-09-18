@@ -24,8 +24,8 @@ File Name 1:                              CDAR2_IG_GH_E1_STU1_2023SEP.pdf
          
                        --- Sample files --- Stored in Github
 
-Github Repo (current versions):                    https://github.com/HL7/CDA-gh
-Example Documents:                                 https://github.com/HL7/CDA-gh/tree/main/examples
+Github Repo (current versions):                    https://github.com/HL7/cda-sex-gender-representation/
+Example Documents:                                 https://github.com/HL7/cda-sex-gender-representation/tree/main/examples
 
 
 
@@ -42,7 +42,7 @@ Package tested with:                               https://github.com/HL7/CDA-co
 Latest version:                                    https://github.com/HL7/cda-core-xsl/releases/latest
 
                                 --- Validation files ---
-Github Repo (current versions):                    https://github.com/HL7/CDA-gh/tree/main/validation
+Github Repo (current versions):                    https://github.com/HL7/cda-sex-gender-representation/tree/main/validation
 
                                 ---- Schema files ----
 
